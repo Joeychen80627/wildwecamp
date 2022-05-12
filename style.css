@@ -1,0 +1,173 @@
+
+.hremoGap {
+    margin-top: -9.7%;
+}
+html h1 { 
+    font-weight: bold;
+    padding: 3%;
+    text-align: center;
+}
+html h3 { 
+    font-weight: bold;
+}
+html h4 {
+    font-weight: bold;
+    color: #04AA6D;
+    white-space: nowrap;
+}
+
+html a { 
+    font-family: cwTeXFangSong, serif;
+    text-decoration: none;
+    color: grey;
+}
+a[type='button'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+ 
+  }
+
+#homebuttom{
+    color: black;
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+@media screen and (max-width: 768px )  {
+    .hvideoSize{
+        width: 100% ;
+        height: 150%;
+        padding-bottom: 40%;
+    } 
+    .htabsticky{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 0%;
+        background-color: whitesmoke;
+    }
+    .navbar-icon-svanish {
+        display: none;
+    }
+    .logo-fuild{
+        width: 230px;
+        height: auto;
+        margin: -90px;
+        margin-left: -30px;
+    }
+    .icon-custom{
+        width: auto;
+        height: 45px;
+    }
+    .tab-logo {
+        width: 230px;
+        height: auto;
+        margin-top: -30%;
+    }
+    .itemcontainer:hover .img-opacity {opacity: 1;}
+    .itemcontainer:hover .text-style {opacity: 0;}
+    div.ui-datepicker {
+        font-size: 120%;
+    }
+    .card {
+        width: 35rem !important;
+    }
+    
+}
+.tabbitton {
+    font-size: 100%;
+    color: black;
+    font-family: cwTeXFangSong, serif;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.tabicon{
+    width: auto;
+    height: 100%;
+    color: darkgrey;
+}
+@media screen and (min-width: 768px) {
+    .htabvanish {
+        height: 0;
+        display: none;
+        overflow: hidden;
+    }
+    .logo-fuild{
+        width: 250px; 
+        height: auto; 
+        margin: -90px;
+        z-index: 999 !important;
+        position: relative !important;
+    }
+    .navbar-icon-lvanish {
+        display: none;
+    }
+    .icon-custom{
+        width: 25px;
+        height: 25px;
+    }
+    .card {
+        width: 50%;
+    }
+  
+    
+}
+.logosvg{
+    height: 80%;
+}
+.itemcontainer {
+    position: relative;
+    margin-bottom: 10%;
+}
+.img-opacity {
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+}
+.buy-middle {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+.text-style{
+    border: 2px solid #04AA6D;
+    color: #04AA6D;
+    padding: 15px;
+    border-radius: 7px;
+    transition: .5s ease;
+    opacity: 0
+}
+.itemcontainer:hover .img-opacity {
+    opacity: 0.7;
+}
+.itemcontainer:hover .text-style {
+    opacity: 1;
+}
+.button-style{
+    border: 2px solid #04AA6D;
+    color: #04AA6D;
+    padding: 15px;
+    border-radius: 7px;
+}
+.FBNIG-icon{
+    width: 35px;
+    height: auto;
+}
+.ulC {
+    list-style: square inside url("img\icons\check-circle-fill.svg");
+    color: #04AA6D;
+  }
+.ulX {
+    list-style: square inside url("img\icons\check-circle-fill.svg");
+    color:darkgray
+}
+.npspace {
+    white-space: nowrap;
+}
+.forul {
+    padding: 10%;
+}
+div.ui-datepicker {
+    font-size: 120%;
+}
